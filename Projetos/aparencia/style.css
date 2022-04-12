@@ -1,7 +1,7 @@
 *{
     background-color: rgb(12, 1, 1);
     color: rgb(18, 170, 25);
-    font: normal 20pt Arial;
+    font: normal 20pt Arial; /* Comentario em CSS */
 }
 h1{
     color: rgba(29, 226, 183, 0.685);

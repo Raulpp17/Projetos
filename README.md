@@ -1,2 +1,3 @@
-# projeto-js
+# projetos
  JavaScript
+ Python

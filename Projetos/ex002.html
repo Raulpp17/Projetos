@@ -12,7 +12,12 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
     <script> 
         var nome = window.prompt('Qual eh seu nome?: ') // Comentario em JS
-        window.alert('Olá, ' + nome)
+        window.alert('Olá, ' + nome +'!')
+        document.write(`Seu nome tem ${nome.length} letras.`)
+        var n1 = Number(window.prompt('Fale um numero: ')) //Number.parseInt ou Number.parseFloat ou Number
+        var n2 = Number(window.prompt('Fale outro numero: ')) // n.toString() ou String(n)
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} + ${n2} eh igual a ${s}!`)
     </script>
 </body>
 </html>
